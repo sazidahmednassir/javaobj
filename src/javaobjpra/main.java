@@ -52,6 +52,13 @@ public class main {
 		acc.setAccno(230);
 		System.out.println(acc.getAccno());
 
+		System.out.println(Static.a);
+		Static.m1();
+
+		Static sta1 = new Static();
+		System.out.println(sta1.b);
+		sta1.m2();
+
 	}
 
 }
