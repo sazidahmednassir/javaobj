@@ -37,6 +37,21 @@ public class main {
 		System.out.println(gr1.m4("nassir"));
 		Construpra cr = new Construpra(230, "Sazid", 'A');
 		cr.Display();
+
+		Polypra polypra = new Polypra();
+		polypra.sum();
+		polypra.sum(29, 49, 20);
+		polypra.sum(23.07, 34);
+		polypra.sum(34, 23.07);
+		System.out.println(polypra.sum(23, "fahim"));
+
+		Box bx = new Box();
+		System.out.println(bx.volume());
+
+		Account acc = new Account();
+		acc.setAccno(230);
+		System.out.println(acc.getAccno());
+
 	}
 
 }
