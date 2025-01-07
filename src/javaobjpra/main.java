@@ -29,6 +29,14 @@ public class main {
 		std2.sname = "Robin";
 		std2.grad = 'A';
 		std2.printData();
+
+		Greetings gr1 = new Greetings();
+		gr1.m1();
+		System.out.println(gr1.m2());
+		gr1.m3("nassir");
+		System.out.println(gr1.m4("nassir"));
+		Construpra cr = new Construpra(230, "Sazid", 'A');
+		cr.Display();
 	}
 
 }
