@@ -81,6 +81,9 @@ public class main {
 		xyz.a1(23, 34);
 		xyz.a1(2300);
 
+		FinalDemo fnalDemo = new FinalDemo();
+//		fnalDemo.z=30;
+
 	}
 
 }
