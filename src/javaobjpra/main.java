@@ -59,6 +59,17 @@ public class main {
 		System.out.println(sta1.b);
 		sta1.m2();
 
+		B bob = new B();
+		bob.display();
+
+		C cob = new C();
+		cob.print();
+		cob.display();
+		cob.show();
+
+		Child1 c1 = new Child1();
+		c1.all(66);
+
 	}
 
 }
