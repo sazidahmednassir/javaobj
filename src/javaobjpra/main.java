@@ -70,6 +70,17 @@ public class main {
 		Child1 c1 = new Child1();
 		c1.all(66);
 
+		ABB ab = new ABB();
+		System.out.println(ab.roi());
+
+		City ct = new City();
+		System.out.println(ct.roi());
+
+		XYZ xyz = new XYZ();
+		xyz.a2(50);
+		xyz.a1(23, 34);
+		xyz.a1(2300);
+
 	}
 
 }
